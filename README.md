@@ -1,4 +1,3 @@
-
 # Customer Churn Prediction System
 
 ## About Project
@@ -17,20 +16,22 @@ Random Forest Classifier is used for customer churn prediction.
 
 ## Model Performance
 - Accuracy: 75.73%
-- Churn Recall: 81% (at threshold 0.45)
+- Churn Recall: 81%
 - Churn Precision: 51%
 - Churn F1-score: 63%
+
+*Note: These are the current test results at a threshold of 0.45.*
 
 ## Features
 - Customer information input
 - Churn probability prediction
 - Stay probability prediction
-- Custom classification threshold (0.45)
+- Custom threshold (0.45)
 - Interactive Streamlit interface
 
 ## How to Run
 
-Install dependencies:
+Install the required libraries:
 
 ```bash
 pip install -r requirements.txt
@@ -39,14 +40,8 @@ pip install -r requirements.txt
 Run the application:
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
-
-## Project Files
-- app.py
-- customer_churn_model.pkl
-- requirements.txt
-- README.md
 
 ## Author
 Ranjan Arya
