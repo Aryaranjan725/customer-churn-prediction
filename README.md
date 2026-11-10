@@ -43,5 +43,23 @@ Run the application:
 python -m streamlit run app.py
 ```
 
+
+## Live Demo
+
+Try the live application here:
+
+[Customer Churn Prediction App](https://customer-churn-prediction-j8xybmddmikqphxr9tfatp.streamlit.app/)
+
+## Project Overview
+
+This project predicts whether a customer is likely to leave a company using Machine Learning.
+
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Streamlit
+- Joblib
+
 ## Author
 Ranjan Arya
