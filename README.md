@@ -7,12 +7,12 @@ This is a Machine Learning project that predicts whether a customer is likely to
 - Python
 - Pandas
 - Scikit-learn
-- Random Forest
+- Random Forest Classifier
 - Streamlit
 - Joblib
 
 ## Machine Learning Model
-Random Forest Classifier is used for customer churn prediction.
+Random Forest Classifier is used to predict customer churn.
 
 ## Model Performance
 - Accuracy: 75.73%
@@ -26,8 +26,19 @@ Random Forest Classifier is used for customer churn prediction.
 - Customer information input
 - Churn probability prediction
 - Stay probability prediction
-- Custom threshold (0.45)
+- Custom prediction threshold (0.45)
 - Interactive Streamlit interface
+
+## Project Screenshots
+
+### Screenshot 1
+![Customer Churn App](Screenshot%202026-11-11%20222616.png)
+
+### Screenshot 2
+![Customer Churn Prediction](Screenshot%202026-11-11%20222824.png)
+
+### Screenshot 3
+![Prediction Result](Screenshot%202026-11-11%20222909.png)
 
 ## How to Run
 
@@ -43,23 +54,9 @@ Run the application:
 python -m streamlit run app.py
 ```
 
-
 ## Live Demo
 
-Try the live application here:
-
 [Customer Churn Prediction App](https://customer-churn-prediction-j8xybmddmikqphxr9tfatp.streamlit.app/)
-
-## Project Overview
-
-This project predicts whether a customer is likely to leave a company using Machine Learning.
-
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- Streamlit
-- Joblib
 
 ## Author
 Ranjan Arya
